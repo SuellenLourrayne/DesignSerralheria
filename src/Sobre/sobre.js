@@ -1,5 +1,5 @@
 // src/Sobre.js
-import React, { useState } from "react";
+import React from "react";
 import "./Sobre.css";
 
 const Sobre = () => {
