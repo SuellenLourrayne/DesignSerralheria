@@ -13,12 +13,10 @@ const FormPage = () => {
     e.preventDefault();
 
     // Prepara os dados do formulário para enviar ao WhatsApp
-    const message = encodeURIComponent(`Nome: ${name}\nServiço: ${service}\nDetalhes: ${details}`);
-    const formData = new URLSearchParams({
-      "Nome": name,
-      "Serviço solicitado": service,
-      "Detalhes do serviço": details,
-    }).toString();
+    const message = encodeURIComponent(`
+      Olá! Meu nome é ${name}.\n
+      Gostaria de orçamento para o serviço: ${service}. \n
+      Mais detalhes: ${details}`);
 
     const whatsAppUrl = `https://wa.me/353831938465?text=${message}`;
     window.open(whatsAppUrl, "_blank");
