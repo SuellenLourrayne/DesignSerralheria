@@ -11,6 +11,13 @@ const Home = () => {
   };
   return (
     <div className="App">
+
+      <section id="contact" className="cta">
+        <h2>Precisa de um orçamento?</h2>
+        <p>Preencha o formulário e entraremos em contato!</p>
+        <button onClick={handleButtonClick}>Solicitar Orçamento</button>
+      </section>
+
       <section id="gallery" className="gallery">
         <h2>Nossos Trabalhos</h2>
         <div className="photos">
@@ -21,12 +28,6 @@ const Home = () => {
           <img src="/images/trabalho5.jpg" alt="Trabalho 5" />
           <img src="/images/trabalho6.jpg" alt="Trabalho 6" />
         </div>
-      </section>
-
-      <section id="contact" className="cta">
-        <h2>Precisa de um orçamento?</h2>
-        <p>Preencha o formulário e entraremos em contato!</p>
-        <button onClick={handleButtonClick}>Solicitar Orçamento</button>
       </section>
 
       <section id="about" className="about">

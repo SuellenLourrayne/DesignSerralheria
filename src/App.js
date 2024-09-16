@@ -15,8 +15,6 @@ const App = () => {
             <li><a href="/#about">Sobre a Empresa</a></li>
           </ul>
         </nav>
-
-
         <h1>Design Serralheria</h1>
         <p>Transformando metal em arte!</p>
       </header>
