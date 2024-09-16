@@ -24,6 +24,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/formulario" element={<FormPage />} />
+          <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </Router></>
   );

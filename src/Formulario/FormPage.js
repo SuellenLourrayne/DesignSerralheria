@@ -1,4 +1,4 @@
-// src/FormPage.js
+// src/formulario/FormPage.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FormPage.css";

@@ -1,6 +1,5 @@
-// src/Sobre.js
+// src/Sobre/Sobre.js
 import React from "react";
-import "./Sobre.css";
 
 const Sobre = () => {
     return (
