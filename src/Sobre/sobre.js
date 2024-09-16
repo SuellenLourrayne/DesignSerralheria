@@ -1,6 +1,5 @@
 // src/Sobre.js
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./Sobre.css";
 
 const Sobre = () => {
