@@ -67,6 +67,10 @@
   text-align: center;
 }
 
+.about {
+  padding: 10px;
+}
+
 .photos img {
   width: 200px;        /* Largura fixa */
   height: 200px;       /* Altura fixa */
