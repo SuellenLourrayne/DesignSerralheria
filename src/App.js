@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
 import FormPage from "./Formulario/FormPage";
-import Sobre from './Sobre/Sobre';
+//import Sobre from "./Sobre/Sobre";
 
 const App = () => {
   return (
@@ -24,7 +24,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/formulario" element={<FormPage />} />
-          <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </Router></>
   );
