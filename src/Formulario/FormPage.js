@@ -14,7 +14,7 @@ const FormPage = () => {
 
     // Prepara os dados do formulário para enviar ao WhatsApp
     const message = encodeURIComponent(`
-      Olá! Meu nome é ${name}.\nGostaria de orçamento para o serviço: ${service}. \nMais detalhes: ${details}`);
+      Olá! Meu nome é ${name}.\nGostaria de orçamento para o serviço: ${service}. \nMais detalhes: ${details}.`);
 
     const whatsAppUrl = `https://wa.me/353831938465?text=${message}`;
     window.open(whatsAppUrl, "_blank");
